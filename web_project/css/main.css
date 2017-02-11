@@ -1,0 +1,99 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	background: black;
+}
+
+img{
+
+	max-width: 100%;
+
+}
+
+.img-fondo img{
+
+	width: 100%;
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width: 4px;
+}
+
+.quitar-float{
+	float:none;
+
+}
+.espacio-arriba{
+	margin-top: 10px;
+}
+
+.oxygen{
+
+	font-family: 'Oxygen', sans-serif;
+}
+.grande{
+
+	font-size: 3em;
+}
+.blanco{
+
+	color:#FFFFFF;
+}
+.espacioMenu{
+	margin-right: 1em;
+
+}
+a{
+	color:#4DABCF;
+	
+}
+.padding-largo{
+	padding: 5px 10px;
+}
+.vete-arriba{
+	vertical-align: top;
+}
+.nav-color{
+	background-color:#292929;
+	width: 100%;
+
+}
+
+.no-lista{
+	margin:0px;
+	padding: 0px;
+}
+.inline-block{
+	float: none;
+	display: inline-block;
+	margin-right: -4px;
+}
+.no-lista li{
+
+	list-style-type: none;
+}
+
+.retraso-1{
+	animation-delay: 1s;
+	-webkit-animation-delay:1s;
+	-moz-animation-delay:1s;
+
+}
+.retraso-2{
+	animation-delay: 2s;
+	-webkit-animation-delay:2s;
+	-moz-animation-delay:2s;
+
+}
+
+.google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+.google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
